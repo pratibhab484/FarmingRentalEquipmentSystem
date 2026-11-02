@@ -1,0 +1,68 @@
+.vm-header {
+  width: 100%;
+  height: 60px;
+  background: #111827;
+  color: #f9fafb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.vm-left {
+  display: flex;
+  align-items: center;
+}
+
+.vm-logo {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.vm-nav {
+  display: flex;
+  gap: 16px;
+}
+
+.vm-link {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+.vm-link.active {
+  background: #2563eb;
+  color: white;
+}
+
+.vm-link:hover {
+  background: #1f2937;
+}
+
+.vm-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.vm-user {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.vm-logout {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.vm-logout:hover {
+  opacity: 0.9;
+}
